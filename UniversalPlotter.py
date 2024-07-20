@@ -35,7 +35,7 @@ class UniversalPlotter:
             self.lines.append(line)
     def startPlot(self)-> None:
         """_summary_
-        Starts  plot
+        Starts a plot
         """
         try:
             live_plot = animate.FuncAnimation(self.figure,self.__HAndle_Plots,cache_frame_data=False,interval=1000)
